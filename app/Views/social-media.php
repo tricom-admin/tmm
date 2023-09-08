@@ -44,19 +44,6 @@
       </div>
     </div>
   </div>
-
-  <div class="row mb-5">
-    <div class="col-md-4">
-      <img src="assets/img/chitose.png" class="img-fluid" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="chitose">
-        <h5 class="card-title col-8 lh-base fw-semibold">Chitose</h5>
-        <br />
-        <p class="card-text col-11 lh-base fw-light">Chitose is a high-tech chair brand that guarantees its users' comfort.</p>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- SOCIAL MEDIA PAGE END -->
 

@@ -161,7 +161,7 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 
 /* TESTIMONY */
 .customer-testimony {
-  background-color: #5f3daf;
+  background-color: #1b325e;
 }
 
 .customer-testimony .title {
@@ -172,9 +172,9 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 .single-testimony {
   border: 0.15rem solid #ffffff;
   border-radius: 2rem;
-  padding: 11%;
+  padding: 10%;
   margin: 0% 5%;
-  height: 75vh;
+  height: 55vh;
 }
 
 .single-testimony:before {
@@ -183,9 +183,9 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: #5f3daf;
+  background: #1b325e;
   left: 3px;
-  top: -30px;
+  top: -3px;
   width: 70px;
   height: 70px;
 }
@@ -196,8 +196,8 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: #5f3daf;
-  right: 0px;
+  background: #1b325e;
+  right: -5px;
   bottom: -5px;
   width: 70px;
   height: 70px;
@@ -831,9 +831,9 @@ body > footer > div > div.row.r-copyright > div > p {
     display: none;
   }
 
-  #products > div.col-md-4 > img {
-    /* height: 17rem !important; */
-  }
+  /* #products > div.col-md-4 > img {
+    height: 17rem !important;
+  } */
 
   /* clients */
   #our-clients .brand {
