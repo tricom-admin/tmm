@@ -177,6 +177,8 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   height: 55vh;
 }
 
+/* update */
+
 .single-testimony:before {
   content: "\f10d";
   font-family: FontAwesome;
