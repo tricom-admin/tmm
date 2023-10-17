@@ -19,8 +19,8 @@
         <div class="col-3 page">
             <h5 class="c-title text-white mb-3 fw-bold">Company</h5>
             <ul class="list-group">
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a class="text text-decoration-none text-white" href="/about-us">About Us</a></li>
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a class="text text-decoration-none text-white" href="#article">Blog</a></li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a class="text text-decoration-none text-white" href="<?= base_url('about-us'); ?>">About Us</a></li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a class="text text-decoration-none text-white" href="<?= base_url('#article'); ?>">Blog</a></li>
             </ul>
         </div>
 

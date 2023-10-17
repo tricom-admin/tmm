@@ -29,7 +29,7 @@
 }
 
 .container-fluid {
-  padding: 6% 10% 7% 15%;
+  padding: 5% 5% 5% 10%;
 }
 
 .bg-grey {
@@ -149,10 +149,10 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 .homepage {
   min-height: 100vh;
   align-items: center;
-  background-image: url("../img/banner-tricom.png");
+  /* background-image: url("../img/banner-tricom.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .title-hp {
@@ -161,7 +161,7 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 
 /* TESTIMONY */
 .customer-testimony {
-  background-color: #1b325e;
+  background-color: var(--dark-blue);
 }
 
 .customer-testimony .title {
@@ -185,7 +185,7 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: #1b325e;
+  background: var(--dark-blue);
   left: 3px;
   top: -3px;
   width: 70px;
@@ -198,7 +198,7 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: #1b325e;
+  background: var(--dark-blue);
   right: -5px;
   bottom: -5px;
   width: 70px;
