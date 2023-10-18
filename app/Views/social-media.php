@@ -16,7 +16,7 @@
 
   <div class="row mb-5">
     <div class="col-md-4">
-      <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" />
+      <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jnModal">
     </div>
     <div class="col-md-8">
       <div class="jack-nicklaus">
@@ -27,11 +27,21 @@
         </p>
       </div>
     </div>
+
+    <div class="modal fade" id="jnModal" tabindex="-1" aria-labelledby="jnModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jnModal">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="row mb-5">
     <div class="col-md-4">
-      <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="JOBB" />
+      <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="JOBB" data-bs-toggle="modal" data-bs-target="#jobbModal">
     </div>
     <div class="col-md-8">
       <div class="jobb">
@@ -41,6 +51,15 @@
           JOBB started its journey as brand in 1994, JOBB has expanded into a today’s Fashion lead brand. For those of you who is looking for inspiration about the latest clothing or bottoms for your daily activities, then you must have
           JOBB.
         </p>
+      </div>
+    </div>
+    <div class="modal fade" id="jobbModal" tabindex="-1" aria-labelledby="jobbModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jobbModal">
+          </div>
+        </div>
       </div>
     </div>
   </div>
