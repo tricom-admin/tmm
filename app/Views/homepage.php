@@ -185,6 +185,7 @@
         <p class="text-testi fst-italic">Direktur PT Mido Indonesia</p>
       </div>
     </div>
+
     <div class="single-testimony text-center text-white lh-lg testimony-card">
       <p class="text-testi">
         I can confidently say that Tricom Agency is a reliable partner. The team is committed to delivering high-quality results. They have a deep understanding of user experience and design principles. Tricom Agency has exceeded our expectations and can be trusted for other projects in the future.
@@ -347,7 +348,7 @@ include "services.php";
     $(".testimony-content").owlCarousel({
       loop: true,
       margin: 10,
-      autoplay: true,
+      // autoplay: true,
       autoplayTimeout: 5000,
       smartSpeed: 1500,
       responsiveClass: true,

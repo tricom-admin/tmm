@@ -16,8 +16,8 @@
   </div>
 
   <div class="row row-cols-md-2 row-cols-1 flex-column flex-md-row g-3 mb-5">
-    <div class="col d-flex justify-content-center">
-      <div class="card rounded-0 w-100" style="height: 50vh;">
+    <div class="col d-flex justify-content-center" style="height: 50vh;">
+      <div class="card rounded-0 w-100">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OD905pbdVAE?si=Axf9K5UhXURHkWZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div class="card-body">
           <p class="card-text">JOBB</p>
