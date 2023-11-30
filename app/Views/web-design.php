@@ -15,51 +15,48 @@
     </div>
   </div>
 
-  <div class="row row-cols-md-2 row-cols-1 flex-column flex-md-row g-5 mb-5">
-    <div class="col d-flex justify-content-center">
-      <a href="https://incozy.co.id" target="_blank" class="text-decoration-none text-black">
-        <div class="card rounded-0 w-100">
-          <img src="assets/img/Web-Incozy.jpg" class="img-fluid" alt="Incozy" data-bs-toggle="modal" data-bs-target="#incozyModal">
-          <div class="card-body">
-            <p class="card-text">Incozy</p>
-          </div>
-        </div>
-      </a>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/web-jack-nicklaus.png" class="img-fluid" alt="Jack Nicklaus" />
     </div>
-
-    <div class="col d-flex justify-content-center">
-      <a href="https://jobb.co.id" target="_blank" class="text-decoration-none text-black">
-        <div class="card rounded-0 w-100">
-          <img src="assets/img/Web-JOBB.jpg" class="img-fluid" alt="JOBB" data-bs-toggle="modal" data-bs-target="#jnModal">
-          <div class="card-body">
-            <p class="card-text">JOBB</p>
-          </div>
-        </div>
-      </a>
+    <div class="col-md-8">
+      <div class="jack-nicklaus">
+        <h5 class="card-title col-8 lh-base fw-semibold">Jack Nicklaus</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">
+          Jack Nicklaus Indonesia, the brand that inspired by the golf sports culture and lifestyle. Jack Nicklaus offer a variety of casual and sporty menswear such as polo shirts, smart casual shirts, pants, bermuda and more.
+        </p>
+      </div>
     </div>
+  </div>
 
-    <div class="col d-flex justify-content-center">
-      <a href="https://trimas-sgi.com" target="_blank" class="text-decoration-none text-black">
-        <div class="card rounded-0 w-100">
-          <img src="assets/img/Web-Trimas.jpg" class="img-fluid" alt="Trimas" data-bs-toggle="modal" data-bs-target="#jnModal">
-          <div class="card-body">
-            <p class="card-text">Trimas</p>
-          </div>
-        </div>
-      </a>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/web-jobb.png" class="img-fluid" alt="JOBB" />
     </div>
-
-    <div class="col d-flex justify-content-center">
-      <a href="https://www.purenceembun.id" target="_blank" class="text-decoration-none text-black">
-        <div class="card rounded-0 w-100">
-          <img src="assets/img/Web-Embun.jpg" class="img-fluid" alt="Embun" data-bs-toggle="modal" data-bs-target="#jnModal">
-          <div class="card-body">
-            <p class="card-text">Embun</p>
-          </div>
-        </div>
-      </a>
+    <div class="col-md-8">
+      <div class="jobb">
+        <h5 class="card-title col-8 lh-base fw-semibold">JOBB</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">
+          JOBB started its journey as brand in 1994, JOBB has expanded into a today’s Fashion lead brand. For those of you who is looking for inspiration about the latest clothing or bottoms for your daily activities, then you must have
+          JOBB.
+        </p>
+      </div>
     </div>
+  </div>
 
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/chitose.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="chitose">
+        <h5 class="card-title col-8 lh-base fw-semibold">Chitose</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">Chitose is a high-tech chair brand that guarantees its users' comfort.</p>
+      </div>
+    </div>
   </div>
 </section>
 <!-- WEB DESIGN PAGE END -->

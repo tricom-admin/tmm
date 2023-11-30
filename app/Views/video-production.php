@@ -15,60 +15,48 @@
     </div>
   </div>
 
-  <div class="row row-cols-md-2 row-cols-1 flex-column flex-md-row g-3 mb-5">
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OD905pbdVAE?si=Axf9K5UhXURHkWZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">JOBB</p>
-        </div>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/jack-nicklaus.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="jack-nicklaus">
+        <h5 class="card-title col-8 lh-base fw-semibold">Jack Nicklaus</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">
+          Jack Nicklaus Indonesia, the brand that inspired by the golf sports culture and lifestyle. Jack Nicklaus offer a variety of casual and sporty menswear such as polo shirts, smart casual shirts, pants, bermuda and more.
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5Yg0gHzmxfI?si=By6K64CWofIdbCoH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">JOBB</p>
-        </div>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/jobb.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="jobb">
+        <h5 class="card-title col-8 lh-base fw-semibold">JOBB</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">
+          JOBB started its journey as brand in 1994, JOBB has expanded into a today’s Fashion lead brand. For those of you who is looking for inspiration about the latest clothing or bottoms for your daily activities, then you must have
+          JOBB.
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yPqdfGOWjXk?si=c3LGEIYbBf7EM2yj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">JOBB</p>
-        </div>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/chitose.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="chitose">
+        <h5 class="card-title col-8 lh-base fw-semibold">Chitose</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">Chitose is a high-tech chair brand that guarantees its users' comfort.</p>
       </div>
     </div>
-
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bDRwSz9lu-4?si=wit6bvF8RKsHIO6i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">Jack Nicklaus</p>
-        </div>
-      </div>
-    </div>
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qNqfxgG3Rt8?si=istxxjtYWNR9jLKa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">Jack Nicklaus</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col d-flex justify-content-center" style="height: 50vh;">
-      <div class="card rounded-0 w-100">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VhizFcxXbAs?si=nGhCJzu8sUAcUruW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="card-body">
-          <p class="card-text">Jack Nicklaus</p>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 <!-- VIDEO PRODUCTION PAGE END -->

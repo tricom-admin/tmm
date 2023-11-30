@@ -13,7 +13,7 @@ return`<li class=\'list-group-item text py-4 p ${0===t?"active-menu":""}\' style
 
 const itm=[{
     id:1,
-    image:"' . base_url('assets/img/social-media.jpg') . '",
+    image:"' . base_url('assets/img/photography.jpg') . '",
     text:"Digital marketing has become an essential part of modern business to stay competitive in todays digital landscape. It provides a way to connect with customers, build brand awareness, and increase sales, all while being cost-effective and measurable.",
     button:"/social-media"},
     
@@ -25,11 +25,11 @@ const itm=[{
     
     {
     id:3,
-    image:"' . base_url('assets/img/video-production.jpg') . '",
+    image:"' . base_url('assets/img/photography.jpg') . '",
     text:"Video production services, we can work on a variety of projects, including corporate videos, lookbook videos, Campaign videos, and launching videos with creative excellence and professionalism.",
     button:"/video-production"},
     
-    {id:4,image:"' . base_url('assets/img/web-dev.jpg') . '",
+    {id:4,image:"' . base_url('assets/img/photography.jpg') . '",
     text:"Welcome to TRICOM web design service! In today digital era, websites play a very important role in the success of a brand, so we ensure that your brand website is not only visually stunning, but also user-friendly and effective in achieving your brand goals.",
     button:"/web-design"},
     ],

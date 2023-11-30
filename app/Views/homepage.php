@@ -3,23 +3,15 @@
 <?= $this->section('content'); ?>
 
 <!--HOMEPAGE-->
-<div class="container-fluid homepage d-flex justify-content-center" id="homepage">
-  <div class="homepage-body banner-carousel owl-carousel">
-    <div class="col">
-      <a href="#">
-        <img class="img-fluid" src="<?= base_url('assets/img/banner-1.jpg'); ?>" alt="">
-      </a>
-    </div>
-    <div class="col">
-      <a href="#contact">
-        <img class="img-fluid" src="<?= base_url('assets/img/banner-2.jpg'); ?>" alt="About Us">
-      </a>
-    </div>
-    <div class="col">
-      <a href="#about-us">
-        <img class="img-fluid" src="<?= base_url('assets/img/banner-3.jpg'); ?>" alt="Contact Us">
-      </a>
-    </div>
+<div class="container-fluid homepage d-flex" id="homepage">
+  <div class="homepage-body" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+    <p class="title-hp lh-sm text-white">
+      Boost Your Brand
+    </p>
+    <p class="sub-title text lh-base fw-light text-white">
+      <span class="fw-bold">TRICOM</span>
+      &nbsp; is committed to helping you connect with customers through branding solutions, strategic and innovative approaches, as well as creative and effective marketing.
+    </p>
   </div>
 </div>
 <!--HOMEPAGE END-->
@@ -38,7 +30,7 @@
       </div>
     </div>
     <div class="col align-self-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-      <img src="<?php echo base_url('assets/img/about-us.jpg'); ?>" class="img-fluid" alt="About-Us" />
+      <img src="<?php echo base_url('assets/img/about-us.jpg'); ?>" class="img-fluid rounded-1" alt="About-Us" />
     </div>
   </div>
 </section>
@@ -74,7 +66,7 @@
   <p class="title fs-1 fw-bold">Our Services</p>
   <div class="services-content owl-carousel">
     <div class="card">
-      <img src="<?php echo base_url('assets/img/social-media.jpg'); ?>" style="height: 25rem" alt="Social-Media" />
+      <img src="<?php echo base_url('assets/img/photography.jpg'); ?>" style="height: 25rem" alt="Social-Media" />
       <div class="card-body text-center d-grid gap-2 my-auto">
         <div class="c-title fw-semibold">Social Media</div>
         <div class="text lh-base fw-light fs-13">
@@ -104,7 +96,7 @@
       </div>
     </div>
     <div class="card">
-      <img src="<?= base_url('assets/img/web-dev.jpg'); ?>" style="height: 25rem" alt="Web-Design" />
+      <img src="assets/img/video-production.jpg" style="height: 25rem" alt="Web-Design" />
       <div class="card-body text-center d-grid gap-2">
         <div class="c-title fw-semibold">Web Design</div>
         <div class="text lh-base fw-light">
@@ -114,6 +106,37 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".services-content").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 1500,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            // nav:true,
+            dots: true,
+          },
+          600: {
+            items: 1,
+            // nav:false,
+            dots: true,
+          },
+          1000: {
+            items: 1,
+            // nav:true,
+            loop: false,
+            dots: true,
+          },
+        },
+      });
+    });
+  </script>
 </section>
 <!-- END -->
 
@@ -185,7 +208,6 @@
         <p class="text-testi fst-italic">Direktur PT Mido Indonesia</p>
       </div>
     </div>
-
     <div class="single-testimony text-center text-white lh-lg testimony-card">
       <p class="text-testi">
         I can confidently say that Tricom Agency is a reliable partner. The team is committed to delivering high-quality results. They have a deep understanding of user experience and design principles. Tricom Agency has exceeded our expectations and can be trusted for other projects in the future.
@@ -207,6 +229,42 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".testimony-content").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 1500,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            // nav:true,
+            dots: true,
+          },
+          600: {
+            items: 2,
+            // nav:false,
+            dots: true,
+          },
+          900: {
+            items: 2,
+            // nav:false,
+            dots: true,
+          },
+          1200: {
+            items: 3,
+            // nav:true,
+            loop: false,
+            dots: true,
+          },
+        },
+      });
+    });
+  </script>
 </section>
 <!-- CUSTOMER TESTIMONY END -->
 
@@ -239,6 +297,37 @@
     endif;
     ?>
   </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".article").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        // autoWidth: true,
+        mergeFit: true,
+        responsive: {
+          0: {
+            items: 1,
+            // nav: true,
+          },
+          600: {
+            items: 2,
+            // nav: false,
+          },
+          900: {
+            items: 2,
+            // nav: false,
+          },
+          1200: {
+            items: 3,
+            // nav: true,
+            loop: true,
+          },
+        },
+      });
+    });
+  </script>
 </section>
 <!-- ARTICLE END -->
 
@@ -288,122 +377,5 @@
 include "services.php";
 
 ?>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".banner-carousel").owlCarousel({
-      rewind: true,
-      margin: 10,
-      autoplay: true,
-      autoplayTimeout: 3500,
-      smartSpeed: 1500,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          // nav:true,
-          dots: true,
-        },
-        600: {
-          items: 1,
-          // nav:false,
-          dots: true,
-        },
-        1000: {
-          items: 1,
-          // nav:true,
-          loop: false,
-          dots: true,
-        },
-      },
-    });
-
-    $(".services-content").owlCarousel({
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      smartSpeed: 1500,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          // nav:true,
-          dots: true,
-        },
-        600: {
-          items: 1,
-          // nav:false,
-          dots: true,
-        },
-        1000: {
-          items: 1,
-          // nav:true,
-          loop: false,
-          dots: true,
-        },
-      },
-    });
-
-    $(".testimony-content").owlCarousel({
-      loop: true,
-      margin: 10,
-      // autoplay: true,
-      autoplayTimeout: 5000,
-      smartSpeed: 1500,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          // nav:true,
-          dots: true,
-        },
-        600: {
-          items: 2,
-          // nav:false,
-          dots: true,
-        },
-        900: {
-          items: 2,
-          // nav:false,
-          dots: true,
-        },
-        1200: {
-          items: 3,
-          // nav:true,
-          loop: false,
-          dots: true,
-        },
-      },
-    });
-
-    $(".article").owlCarousel({
-      loop: true,
-      margin: 10,
-      responsiveClass: true,
-      // autoWidth: true,
-      mergeFit: true,
-      responsive: {
-        0: {
-          items: 1,
-          // nav: true,
-        },
-        600: {
-          items: 2,
-          // nav: false,
-        },
-        900: {
-          items: 2,
-          // nav: false,
-        },
-        1200: {
-          items: 3,
-          // nav: true,
-          loop: true,
-        },
-      },
-    });
-  });
-</script>
 
 <?= $this->endSection(); ?>

@@ -16,7 +16,7 @@
 
   <div class="row mb-5">
     <div class="col-md-4">
-      <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jnModal">
+      <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" />
     </div>
     <div class="col-md-8">
       <div class="jack-nicklaus">
@@ -27,21 +27,11 @@
         </p>
       </div>
     </div>
-
-    <div class="modal fade" id="jnModal" tabindex="-1" aria-labelledby="jnModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="assets/img/socmed-jack-nicklaus.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jnModal">
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <div class="row mb-5">
     <div class="col-md-4">
-      <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="JOBB" data-bs-toggle="modal" data-bs-target="#jobbModal">
+      <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="JOBB" />
     </div>
     <div class="col-md-8">
       <div class="jobb">
@@ -53,13 +43,17 @@
         </p>
       </div>
     </div>
-    <div class="modal fade" id="jobbModal" tabindex="-1" aria-labelledby="jobbModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="assets/img/socmed-jobb.jpg" class="img-fluid" alt="Jack Nicklaus" data-bs-toggle="modal" data-bs-target="#jobbModal">
-          </div>
-        </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="assets/img/chitose.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="chitose">
+        <h5 class="card-title col-8 lh-base fw-semibold">Chitose</h5>
+        <br />
+        <p class="card-text col-11 lh-base fw-light">Chitose is a high-tech chair brand that guarantees its users' comfort.</p>
       </div>
     </div>
   </div>

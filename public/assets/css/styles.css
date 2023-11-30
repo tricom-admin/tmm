@@ -29,7 +29,7 @@
 }
 
 .container-fluid {
-  padding: 5% 5% 5% 10%;
+  padding: 6% 10% 7% 15%;
 }
 
 .bg-grey {
@@ -149,10 +149,10 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 .homepage {
   min-height: 100vh;
   align-items: center;
-  /* background-image: url("../img/banner-tricom.png");
+  background-image: url("../img/banner-tricom.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 .title-hp {
@@ -161,7 +161,7 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 
 /* TESTIMONY */
 .customer-testimony {
-  background-color: var(--dark-blue);
+  background-color: #5f3daf;
 }
 
 .customer-testimony .title {
@@ -169,22 +169,13 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   margin-bottom: 1.5rem !important;
 }
 
-.owl-item {
-  /* margin: 5% 0%; */
-}
-
-.single-testimony {
-  /* border: 0.15rem solid #ffffff; */
-  background-image: url('../img/Quotes-Box.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 15%;
-  margin: 5% 0%;
-  height: 85vh;
-}
-
-/* update */
+/* .single-testimony {
+  border: 0.15rem solid #ffffff;
+  border-radius: 2rem;
+  padding: 11%;
+  margin: 0% 5%;
+  height: 75vh;
+} */
 
 /* .single-testimony:before {
   content: "\f10d";
@@ -192,9 +183,9 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: var(--dark-blue);
+  background: #5f3daf;
   left: 3px;
-  top: -3px;
+  top: -30px;
   width: 70px;
   height: 70px;
 }
@@ -205,8 +196,8 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
   color: var(--white);
   font-size: 3rem;
   position: absolute;
-  background: var(--dark-blue);
-  right: -5px;
+  background: #5f3daf;
+  right: 0px;
   bottom: -5px;
   width: 70px;
   height: 70px;
@@ -232,7 +223,6 @@ body > nav.top-nav.navbar.bg-light.sticky-top.shadow-lg > div > button{
 
 .customer-testimony .testimony-content .single-testimony .text-testi{
   font-size: 12px;
-  margin: 10%;
 }
 
 /* SERVICES */
@@ -509,13 +499,12 @@ body > footer > div > div.row.r-copyright > div > p {
 
   /* testimony */
   .single-testimony {
-    /* border: 0.2rem solid #ffffff !important; */
-    /* margin: 1% 1% !important; */
-    padding: 15% 0% !important;
-    height: 70vh;
+    border: 0.2rem solid #ffffff !important;
+    margin: 1% 1% !important;
+    padding: 8% !important;
   }
 
-  /* .single-testimony:before {
+  .single-testimony:before {
     font-size: 2.5rem !important;
     left: -0.5rem !important;
     top: -1.5rem !important;
@@ -529,14 +518,14 @@ body > footer > div > div.row.r-copyright > div > p {
     bottom: -0.6rem !important;
     width: 4rem !important;
     height: 4rem !important;
-  } */
+  }
 
   .customer-testimony .testimony-content .single-testimony .text-testi{
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .customer-testimony .testimony-content .single-testimony{
-    /* height: 342px; */
+    height: 342px;
   }
 
   /* clients */
@@ -842,14 +831,9 @@ body > footer > div > div.row.r-copyright > div > p {
     display: none;
   }
 
-  /* #products > div.col-md-4 > img {
-    height: 17rem !important;
-  } */
-
-/* Single Testimony */
-.single-testimony {
-  padding: 15% 0%;
-}
+  #products > div.col-md-4 > img {
+    /* height: 17rem !important; */
+  }
 
   /* clients */
   #our-clients .brand {
