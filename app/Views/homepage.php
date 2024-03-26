@@ -359,7 +359,7 @@
         <div class="col">
           <p class="w-75">
             Trisula Center<br />
-            Jalan Lingkar Luar Barat Blok A - B 1, RT.14/RW.14, Rw. Buaya, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11740
+            Jalan Lingkar Luar Barat Blok A No. 1, RT.14/RW.14, Rw. Buaya, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11740
           </p>
         </div>
       </div>
